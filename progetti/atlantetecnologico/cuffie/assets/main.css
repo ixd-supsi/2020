@@ -1,0 +1,800 @@
+*, *:before, *:after{
+	box-sizing: border-box;}
+
+@media only screen and (max-width: 1200px)
+	{
+
+
+		.testo_intro{
+			padding-left: 0%;
+			padding-right: 0%;
+		}
+
+
+		.primo_periodo{
+			
+			margin-top: 150px;
+			font-size: 14px;
+		}
+
+		.ernest {
+			min-width: 25%;
+			height: auto;
+		}
+
+
+		.baldwin{
+			min-width: 25%;
+			height: auto;
+		}
+
+
+		.DT{
+			min-width: 25%;
+			height: auto;
+
+		}
+
+		.koss{
+			min-width: 25%;
+			height: auto;
+		}
+
+
+		.Sennheiser{
+			min-width: 25%;
+			height: auto;
+		}
+
+		.walkman {
+			min-width: 25%;
+			height: auto;
+		}
+
+		
+		.airpods{
+			min-width: 25%;
+			height: auto;
+			margin: 300px 0px 0px 0px;
+		}
+
+		.airpods_two{
+			min-width: 25%;
+			height: auto;
+			margin: 300px 0px 0px 0px;
+		}
+
+
+
+
+
+		.secondo_periodo{
+			float: left;
+			margin: -270px 0px 0px 0px;
+			font-size: 14px;
+		}
+
+		.immaginona{
+			width: 35%;
+		}
+
+		.terzo_periodo{
+			float: left;
+			margin: -180px 0px 0px 0px;
+			font-size: 14px;
+		}
+
+
+
+		.quarto_periodo{
+			float: left;
+			margin: -270px 0px 0px 0px;
+			font-size: 14px;
+		}
+
+		.koss_adv{
+			width: 35%;
+			margin: 500px 30px 0px 0px;
+		}
+
+		.amen{
+			margin: 580px 30px 0px 0px;
+		}
+
+		.quinto_periodo{
+			float: left;
+			margin: -190px 0px 0px 0px;
+			font-size: 14px;
+		}
+
+		.sesto_periodo{
+			float: left;
+			margin: -280px 0px 0px 0px;
+			font-size: 14px;
+		}
+		.settimo_periodo{
+			margin: -700px 0px 0px 0px;
+			font-size: 14px;
+		}
+
+		.revolution{
+			width: 0%;
+		}
+
+
+		.ottavo_periodo{
+			float: left;
+			margin: -270px 0px 0px 0px;
+			font-size: 14px;
+		}
+
+		.ottavo{
+			float: right;
+		}
+
+		.dispo_odie{
+			float: left;
+			margin: 0px 0px 0px 0px;
+			font-size: 14px;
+
+		}
+
+		.immaginona{
+			float: left;
+			margin: -430px 0px 0px 0px;
+		}
+
+	
+		.cata{
+			width: 100%;
+			float: right;
+			font-size: 14px;
+
+		}
+
+
+	
+
+		.two{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+		.three{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.four{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.five{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.six{
+			float: right;
+			max-width: 50%;
+			display: inline;
+		}
+
+		.info_tec{
+			float: right;
+			font-size: 14px;
+
+		}
+		
+		.colophon{
+			float: left;
+			margin-right: 0%;
+			padding-top: 10%;
+			margin-right: 90%;
+			margin-left: 10%;
+		}
+
+
+		
+
+
+	}
+
+	
+
+
+
+body{
+	background-color: black;
+	color:#f9f9f9;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.4;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.bottone{
+	text-decoration: none;
+	font-size: 20px;
+	position: absolute;
+	bottom: 950px;
+	left: 50px;
+
+}
+
+
+
+.contenitore{
+	margin: 0 auto; /* per centrare gli elementi*/
+	width: 90%;
+
+}
+
+.container{
+	position: relative;
+}
+
+.titolo_immagine{
+	position: absolute;
+	bottom: 180px;
+	left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgb(0 0 0);
+	background: rgba(0, 0, 0, 0.8);
+
+}
+
+
+.sott{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.copertina{
+	width: 100vw;
+	position: relative;
+}
+
+.menu{
+	align-content: center;
+}
+
+nav{
+	width: 100%;
+	height: 95px;
+	border-top: 1px solid rgba(255,255,255,.2)
+	border-bottom:1px solid rgba(255,255,255,.2);
+	position: sticky;
+	top: 0px;
+	background-color: black;
+	opacity: 0.9;
+	margin: 0;
+}
+
+nav ul{
+	text-align: center;
+	display: flex;
+	margin: 0px;
+	padding: 0 25%;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li a{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform:uppercase;
+	color: #f9f9f9;
+	opacity: 0.8;
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+nav ul li a:hover{
+	 box-shadow: 0 0 10px
+}
+
+
+
+
+h1 {
+	font-size: 40px;
+	position: relative;
+}
+
+.titolo_immagine{
+	margin: 35px;
+}
+
+.sottotitolo{
+	font-size: 25px;
+	margin-top: -30px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 9%;
+}
+
+h3{
+	font-size:20px;
+	text-align: left;
+	margin-top: 0px;
+	letter-spacing: 0.6px;
+	margin-bottom: 50px;
+}
+
+h4{
+	font-size: 17px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	letter-spacing: 0.3px;
+}
+
+h5{
+	font-size: 10px;
+	letter-spacing: 0.3px;
+}
+
+p{
+	font-size: 102%;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	letter-spacing: 0.3px;
+}
+
+a{
+	color: white;
+	font-size: 95%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.date{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-left: 60px;
+    font-size: 15px;
+
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 160px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+
+
+
+
+.testo_intro {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 13%;
+	margin-top: 10%;
+	font-size: 85%;
+}
+
+
+
+.primo_periodo{
+	margin-left:30%;
+	margin-right: 30%;
+	margin-bottom:10%;
+
+}
+.secondo_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+.terzo_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:22%;
+}
+
+.quarto_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:8%;
+}
+
+.quinto_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+.sesto_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	padding-bottom:13%;
+}
+
+.settimo_testo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 12%;
+}
+
+.ottavo_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 8%;
+}
+
+.dispo_odie{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 5%;
+}
+
+
+
+
+
+#primo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#secondo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#terzo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#quarto{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#quinto{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#sesto{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#settimo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#ottavo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#nono{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+
+
+
+
+.ernest {
+	width: 18%;
+}
+
+.baldwin {
+	width: 18%;
+}
+
+.immaginona{
+	text-align: center;
+}
+
+.DT{
+	width: 18%;
+}
+
+.koss {
+	width:18%;
+}
+
+.koss_adv{
+	text-align: center;
+}
+
+.Sennheiser{
+	width: 18%;
+}
+
+.walkman {
+	width: 18%;
+	padding-bottom: 5%;
+}
+
+.revolution{
+	text-align: center;
+}
+
+.airpods{
+	width: 18%;
+}
+
+.airpods_two{
+	width: 18%;
+}
+
+
+
+
+
+.cata{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.catalogo_uno{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+}
+
+.catalogo_uno div{
+	width: 30%;
+}
+
+.catalogo_due{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10%;
+}
+
+.catalogo_due div{
+	width: 30%;
+}
+
+
+
+
+
+
+.one{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.two{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding:2%;
+}
+
+.three{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.four{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.five{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding:2%;
+}
+
+.six{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+
+
+
+
+
+.esterne{
+	width: 41%;
+	/*per centrare un'immagine*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circum{
+	width: 39%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.sovra{
+	width: 41%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 87px;
+}
+
+.aperte{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.auri{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 48%;
+	margin-top: -15px;
+}
+
+.intra{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 31%;
+	margin-top: 65px;
+}
+
+
+
+
+
+.info_tec{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 5%;
+}
+
+
+.mini{
+	font-size: 87%;
+	margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+.colophon{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 14%;
+	padding-top: 5%;
+
+}
+
+
+.colophon div{
+	width: 30%;
+}
+
+
+.siti{
+	margin-bottom: 5%;
+	margin-left: -23px;
+	line-height: 1.8;
+	font-size: 12px;
+}
+
+
+.col_uno{
+	margin-right: 30%;
+}
+
+
+.tit_col{
+	font-size: 12px;
+	margin-bottom: 0px;
+	letter-spacing: 1px;
+}
+
+
+.tito_col{
+	font-size: 10px;
+	margin-bottom: 0px;
+	letter-spacing: 0.7px;
+}
+
+
+.corso{
+	bottom: 40px;
+	font-size: 10px;
+	line-height: -1;
+}
+

@@ -1,0 +1,123 @@
+
+body{
+	font-family: Arial, sans-serif;
+}
+
+.contenitore{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top:80px;
+}
+
+.titolo{
+font-size: 30px;
+font-weight: bolder;
+line-height: 125%;
+position: relative;
+margin-left: 20px;
+}
+
+.intro{
+	font-size: 20px;
+	line-height: 125%;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.Gruppi{
+	margin-left: -130px;
+	width: 120px;
+	margin-right: 0px;
+	float: left;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 0%;
+  display: inline-block;
+}
+
+.immagine1 {
+	width: 70%;
+}
+
+.immagine2 {
+	width: 70%;
+}
+
+.immagine3 {
+	width: 70%;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: row;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top:80px;
+}
+
+.legenda1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top:80px;
+}
+
+.legenda2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.container3 {
+	display: flex;
+	flex-direction: row;
+ 	margin-left: 80px;
+	margin-right: 80px;
+	margin-top:80px;
+}
+
+.legenda3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h6{
+color: black;
+margin-top: 80px;
+margin-left: 80px;
+}
+
+.link_parola{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.link_parola:hover{
+	color: black;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.frase{
+	text-decoration: none;
+	font-size: 12px;
+	margin-top: -60px;
+}
+
+
+
+
+
