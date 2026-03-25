@@ -19,6 +19,9 @@ function load_menu(){
         },
         {
             "link": 2025
+        },
+        {
+            "link": 2026
         }
     ]
 
